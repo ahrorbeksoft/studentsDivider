@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="studentsList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>261</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="teamCount">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="studentsLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Students:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="teamcountLabel">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>390</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Team count:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="memberCount">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="processButton">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>390</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+ background-color: #555555; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+QPushButton:hover {
+  background-color: #797979; /* Green */
+  color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>Process!</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="results">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>30</y>
+      <width>411</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="resultsLabel">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Results:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="memberCount_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>390</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Member count:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="studentsCountLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string> Students count:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="studentsCount">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
